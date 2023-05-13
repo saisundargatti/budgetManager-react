@@ -1,0 +1,30 @@
+.list-header {
+  border-color: #d7dfe9;
+  border-width: 2px;
+  border-style: solid;
+  border-top: none;
+}
+.displayItemProps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 14px;
+  font-family: Roboto;
+  color: #475569;
+  font-weight: 500;
+  width: 100px;
+}
+@media screen and (max-width: 767px) {
+  p {
+    width: 70px;
+  }
+}
+.delete-button {
+  background-color: transparent;
+}
+.delete-img {
+  width: 20px;
+}

@@ -1,0 +1,27 @@
+.icon {
+  width: 60px;
+}
+
+.balance-card {
+  border-width: 2px;
+  border-style: solid;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-card {
+    width: 32%;
+  }
+}
+
+.data-item {
+  margin-left: 20px;
+}

@@ -1,0 +1,43 @@
+.body-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+}
+
+.profileCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.heading {
+  font-size: 32px;
+  font-family: Roboto;
+  color: #475569;
+}
+
+.sub-heading {
+  width: 100%;
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+span {
+  color: #0b69ff;
+}
+
+@media screen and (min-width: 768px) {
+  .component-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .form-list-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}
